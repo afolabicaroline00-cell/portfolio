@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | Dr. Afolabi Caroline</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">Dr. Caroline<span class="highlight">.</span></a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#expertise">Expertise</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="../index.html#dashboard">Dashboard</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Publications Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Publications</h1>
+                <p>Peer-reviewed articles, book chapters, and conference proceedings</p>
+                <div class="header-stats">
+                    <div class="stat">
+                        <h3>45+</h3>
+                        <p>Total Publications</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1,850+</h3>
+                        <p>Citations</p>
+                    </div>
+                    <div class="stat">
+                        <h3>18.5</h3>
+                        <p>i10-Index</p>
+                    </div>
+                    <div class="stat">
+                        <h3>45</h3>
+                        <p>H-Index</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Filter -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search publications...">
+                </div>
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="journal">Journal Articles</button>
+                    <button class="filter-btn" data-filter="conference">Conference Papers</button>
+                    <button class="filter-btn" data-filter="chapter">Book Chapters</button>
+                    <button class="filter-btn" data-filter="review">Reviews</button>
+                </div>
+                <div class="sort-group">
+                    <select id="sortSelect">
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                        <option value="citations">Most Cited</option>
+                        <option value="impact">Highest Impact</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Grid -->
+    <section class="publications-page">
+        <div class="container">
+            <div class="publications-container" id="publicationsGrid">
+                <!-- Publications will be loaded dynamically -->
+            </div>
+            
+            <!-- Publication Details Modal -->
+            <div class="modal" id="publicationModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-body" id="modalBody">
+                        <!-- Content loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn" id="prevPage"><i class="fas fa-chevron-left"></i> Previous</button>
+                <div class="page-numbers" id="pageNumbers"></div>
+                <button class="page-btn" id="nextPage">Next <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export Section -->
+    <section class="export-section">
+        <div class="container">
+            <div class="export-box">
+                <h3>Export Publications</h3>
+                <p>Download my publications in various formats</p>
+                <div class="export-buttons">
+                    <button class="export-btn" data-format="bibtex">
+                        <i class="fas fa-file-code"></i> BibTeX
+                    </button>
+                    <button class="export-btn" data-format="ris">
+                        <i class="fas fa-file-alt"></i> RIS
+                    </button>
+                    <button class="export-btn" data-format="csv">
+                        <i class="fas fa-file-csv"></i> CSV
+                    </button>
+                    <button class="export-btn" data-format="pdf">
+                        <i class="fas fa-file-pdf"></i> PDF List
+                    </button>
+                </div>
+                <div class="external-links">
+                    <a href="#" class="ext-link">
+                        <i class="fab fa-google-scholar"></i> Google Scholar Profile
+                    </a>
+                    <a href="#" class="ext-link">
+                        <i class="fab fa-researchgate"></i> ResearchGate
+                    </a>
+                    <a href="#" class="ext-link">
+                        <i class="fab fa-orcid"></i> ORCID
+                    </a>
+                    <a href="#" class="ext-link">
+                        <i class="fas fa-user-graduate"></i> Scopus Author ID
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Dr. Afolabi Caroline</h3>
+                    <p>Microbiologist & Epidemiologist dedicated to advancing public health through research and data science.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Affiliations</h4>
+                    <ul>
+                        <li>Center for Infectious Disease Research</li>
+                        <li>Nigerian Institute of Medical Research</li>
+                        <li>World Health Organization (Consultant)</li>
+                        <li>University of Lagos (Visiting Lecturer)</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Research Profiles</h4>
+                    <div class="profile-links">
+                        <a href="#"><i class="fab fa-google-scholar"></i></a>
+                        <a href="#"><i class="fab fa-researchgate"></i></a>
+                        <a href="#"><i class="fab fa-orcid"></i></a>
+                        <a href="#"><i class="fas fa-user-graduate"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dr. Afolabi Caroline. All rights reserved.</p>
+                <p>Designed for Academic and Research Purposes</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+    <script src="pages.js"></script>
+    <script>
+        // Publications page specific scripts
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load publications
+            loadAllPublications();
+            
+            // Initialize filters
+            initFilters();
+            
+            // Initialize modal
+            initModal();
+            
+            // Initialize export buttons
+            initExport();
+        });
+    </script>
+</body>
+</html>
