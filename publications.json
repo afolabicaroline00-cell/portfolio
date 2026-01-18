@@ -1,0 +1,68 @@
+[
+    {
+        "year": "2023",
+        "journal": "Nature Communications",
+        "impactFactor": "17.69",
+        "title": "Genomic epidemiology of SARS-CoV-2 variants in Nigeria reveals early detection and spread patterns",
+        "authors": "Afolabi, C., Adekunle, A., Mohammed, S., et al.",
+        "abstract": "This study presents comprehensive genomic surveillance data from Nigeria, revealing patterns of SARS-CoV-2 variant introduction and spread across West Africa...",
+        "citations": 45,
+        "doi": "https://doi.org/10.1038/s41467-023-40175-3",
+        "pdf": "assets/pdfs/publication1.pdf"
+    },
+    {
+        "year": "2022",
+        "journal": "The Lancet Microbe",
+        "impactFactor": "86.21",
+        "title": "Antimicrobial resistance in clinical isolates from tertiary hospitals in West Africa: A multicentre surveillance study",
+        "authors": "Afolabi, C., Ibrahim, M., Okonkwo, P., et al.",
+        "abstract": "Multicentre surveillance study assessing antimicrobial resistance patterns in bacterial isolates from five tertiary hospitals across Nigeria and Ghana...",
+        "citations": 32,
+        "doi": "https://doi.org/10.1016/S2666-5247(22)00123-4",
+        "pdf": "assets/pdfs/publication2.pdf"
+    },
+    {
+        "year": "2021",
+        "journal": "PLOS Pathogens",
+        "impactFactor": "7.46",
+        "title": "Molecular characterization of malaria parasites in Nigeria reveals genetic diversity and drug resistance markers",
+        "authors": "Afolabi, C., Nwachukwu, W., Bello, M., et al.",
+        "abstract": "Genetic analysis of Plasmodium falciparum isolates from different regions of Nigeria, identifying drug resistance mutations and population structure...",
+        "citations": 28,
+        "doi": "https://doi.org/10.1371/journal.ppat.1009328",
+        "pdf": "assets/pdfs/publication3.pdf"
+    },
+    {
+        "year": "2020",
+        "journal": "Emerging Infectious Diseases",
+        "impactFactor": "8.22",
+        "title": "Outbreak of Lassa fever in Nigeria: Epidemiological and clinical characteristics",
+        "authors": "Afolabi, C., Danjuma, I., Okafor, H., et al.",
+        "abstract": "Comprehensive analysis of a major Lassa fever outbreak in Nigeria, including epidemiological patterns, risk factors, and clinical outcomes...",
+        "citations": 41,
+        "doi": "https://doi.org/10.3201/eid2605.191588",
+        "pdf": "assets/pdfs/publication4.pdf"
+    },
+    {
+        "year": "2019",
+        "journal": "Scientific Reports",
+        "impactFactor": "4.60",
+        "title": "Metagenomic analysis of gut microbiota in HIV-infected individuals in Nigeria",
+        "authors": "Afolabi, C., Adeyemi, O., Samuel, F., et al.",
+        "abstract": "Characterization of gut microbiome alterations in HIV-infected patients and their association with disease progression and treatment outcomes...",
+        "citations": 23,
+        "doi": "https://doi.org/10.1038/s41598-019-45437-z",
+        "pdf": "assets/pdfs/publication5.pdf"
+    },
+    {
+        "year": "2018",
+        "journal": "International Journal of Infectious Diseases",
+        "impactFactor": "8.41",
+        "title": "Predictive modeling of cholera outbreaks in Nigeria using environmental and socioeconomic factors",
+        "authors": "Afolabi, C., Yusuf, A., Mohammed, K., et al.",
+        "abstract": "Development of a machine learning model to predict cholera outbreaks based on environmental, climatic, and socioeconomic variables...",
+        "citations": 19,
+        "doi": "https://doi.org/10.1016/j.ijid.2018.03.015",
+        "pdf": "assets/pdfs/publication6.pdf"
+    }
+]
